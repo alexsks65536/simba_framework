@@ -1,12 +1,10 @@
-from views import Index, Style, Pizza, Foods, Drinks, Pizza_logo
+from views import Index, Pizza, Foods, Drinks
 
 # Набор привязок: путь-контроллер
 routes = {
     '/': Index(),
     '/index/': Index(),
-    '/style/': Style(),
     '/pizza/': Pizza(),
     '/foods/': Foods(),
     '/drinks/': Drinks(),
-    '/pizza_logo/': Pizza_logo()
 }
